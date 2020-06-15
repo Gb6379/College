@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1525906179 source:c:\users\gabriel\desktop\lista hoje\jogovelha\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1525906179 source:c:\users\gabriel\desktop\jogovelha\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1527482195 source:c:\users\gabriel\desktop\jogodavelha\jogovelha\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1527558849 source:c:\users\gabri\desktop\jogodavelha\jogovelha\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

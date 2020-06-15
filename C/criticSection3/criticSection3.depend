@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1573226894 source:c:\users\gabri\desktop\programming\collegeufn\c\criticsection3\main.c
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

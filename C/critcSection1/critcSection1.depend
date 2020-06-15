@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1573225049 source:c:\users\gabri\desktop\programming\collegeufn\c\critcsection1\main.c
+	<pthread.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

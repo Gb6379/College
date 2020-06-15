@@ -1,0 +1,49 @@
+Na transmissao Assincrona - os bits de caractere sao colocados entre um bit de start e um bit de stop
+(iniciar comunicacao e encerrar depois).
+
+
+
+Sincrona(pre sincronizacao)
+O modo de transmissão síncrono é uma maneira de transmitir bits de forma que estes possam ser recebidos adequadamente pelo destinatário. No entanto, para que a informação enviada seja corretamente interpretada, o receptor deve conhecer a priori os instantes que separam os bits dentro do caractere[GIO 86].
+[Vantagens]
+
+m relação a transmissão assíncrona, é mais eficiente, pois a proporção de informação para sinais de controle (sincronização) é bem maior, não necessitando de sinais de início e fim de caracter (start/stop bits) [TAR 82].
+
+Facilita o uso de algorítmos de compactação devido ao armazenamento em buffer. Isto permite aumentar a velocidade de transmissão.
+
+A transmissão síncrona oferece melhor proteção contra erros, pois, como mostrado no formato do bloco, existe no final deste um conjunto de caracteres para verificação de erros: BCC (Block Check Character).
+
+[Desvantagens]
+ Se há um erro de sincronização, todo o bloco é perdido, pois até a ressincronização a amostragem será realizada em instantes incorretos.
+
+Exige o uso de buffers, o que encarece o custo do equipamento, pois os caracteres devem ser enviados em blocos e não conforme sua disponibilidade.
+
+Sinal > dominio de frequencia
+Espectro> Soma de todas as frequencias
+ex:Espectro eletromagnetico
+
+Portadora(trafego de dados)
+> é a representacao de mensagem em um meio d transmissao(fisicamente)
+
+modulacao para facilidade de irradiacao
+modulaccao para reducao de ruido e interferencia
+''         para designacao de frequencia
+''         modulacao para multiplexacao
+''         modulaçao para superar limitacoes de projetos
+comunicacao: Processo pelo qual informao é transmitda de forma confiavel.
+ultiliza algum meio fisico
+Efeitos indesejados
+(atenuacao)
+distorcao)
+(intrferencia
+(ruido)
+
+
+
+pesquisar sobre o teorema de nyquist e a lei de shannon
+explicar teorico  e praticamente
+com cerca de 3 exemplos
+formato SBC(sociedade brasileira de computacao)
+peso 1,0 texto
+apresentacao - 0.5 ( so os exemplos)
+sharlatex

@@ -1,0 +1,101 @@
+select 'temperatura' from nome tabela; (lista o campo desejado)
+
+DELETE FROM tabela WHERE nome = 'nome';
+
+UPDATE vertebrados SET Temperatura='quente' WHERE nome'leopardo';
+
+select*from vertebrados
+>WHERE classe='ave';
+
+> WHERE aquatico='nao' AND pernas=1
+ and se quiser mais de um campo
+
+ALTER TABLE vertabrados MODIFY aquatico VARCAHR(5);
+
+
+Qual o clima quando a umidade é normal?
+
+select outlook, humidity from weather
+    -> WHERE temperature='normal';
+
++----------+----------+
+| outlook  | humidity |
++----------+----------+
+| rainy    | normal   |
+| rainy    | normal   |
+| overcast | normal   |
+| sunny    | normal   |
+| rainy    | normal   |
+| sunny    | normal   |
+| overcast | normal   |
++----------+----------+
+
+Qual o percentual de ocorrência de vento quando o clima é nublado?
+
+ select outlook, windy from weather
+    -> WHERE outlook='overcast';
+
++----------+-------+
+| outlook  | windy |
++----------+-------+
+| overcast | false |
+| overcast | true  |
+| overcast | true  |
+| overcast | true  |
++----------+-------+
+
+
+Qual a temperatura que mais aparece quando os dias são ensolarados?
+select outlook, temperature from weather
+    -> WHERE outlook='sunny';
+
++---------+-------------+
+| outlook | temperature |
++---------+-------------+
+| sunny   | hot         |
+| sunny   | hot         |
+| sunny   | mild        |
+| sunny   | cool        |
+| sunny   | mild        |
++---------+-------------+
+
+
+Qual a relação do vento com a ocorrência de jogo?
+
+ select play,windy from weather
+    -> WHERE play='yes';
+
++------+-------+
+| play | windy |
++------+-------+
+| yes  | false |
+| yes  | false |
+| yes  | false |
+| yes  | true  |
+| yes  | false |
+| yes  | false |
+| yes  | true  |
+| yes  | true  |
+| yes  | true  |
++------+-------+
+
+nao ha relaçao, o jogo ocorre idependente do vento
+
+Em qual relação clima e umidade tem a maior possibilidade de haver jogo? 
+
+select outlook,humidity,play from weather
+    -> WHERE play='yes';
++----------+----------+------+
+| outlook  | humidity | play |
++----------+----------+------+
+| overcast | high     | yes  |
+| rainy    | high     | yes  |
+| rainy    | normal   | yes  |
+| overcast | normal   | yes  |
+| sunny    | normal   | yes  |
+| rainy    | normal   | yes  |
+| sunny    | normal   | yes  |
+| overcast | high     | yes  |
+| overcast | normal   | yes  |
++----------+----------+------+
+

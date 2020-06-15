@@ -1,0 +1,5 @@
+1- por que se o c for maior que zero o grafico sobe c unidades se for menos ele desce c unidades
+se ele ficar em zero obtemos somente o y1=f(x) pois nao há variacão no c.
+
+	
+2-

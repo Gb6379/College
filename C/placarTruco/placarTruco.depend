@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1534561791 source:c:\users\gabri\desktop\collegeufn\algoritimos\placartruco\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1573254971 source:c:\users\gabri\desktop\programming\collegeufn\c\philosopherers-dinner2\main.c
+	<pthread.h>
+	<semaphore.h>
+	<stdio.h>
+
